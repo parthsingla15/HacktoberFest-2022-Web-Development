@@ -47,7 +47,7 @@ If this project helped you start with your open source journey or got you involv
 
 <h2>🛠Templates to Follow</h2>
 
-Provide your information in this following format while creating your PR PR Title : Short script of what PR is
+Provide your information in this following format while creating your PR Title : Short script of what PR is
 
 Name : Full Name <br>
 LinkedIn: LinkedIn Profile Link (Optional) <br>
