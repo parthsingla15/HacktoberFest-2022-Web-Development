@@ -9,6 +9,29 @@
 
 <body>
     <!-- Write code here to embed a GDSC youtube video. -->
+    <div>
+        <label>Enter the video link:</label>
+        <input type="text" name="name" value="" id="nam">
+        <br><br>
+ 
+        <br><br>
+ 
+        <button id="myBtn">Enter</button>
+        <br><br>
+ 
+    </div>
+    <iframe width="420" height="315" src="" id="img1">
+</iframe>
+<script type="text/javascript"> 
+     document.getElementById("myBtn").addEventListener("click", function(){ 
+        let link = document.getElementById("nam").value ;
+        var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+        var match = link.match(regExp);
+        link = (match&&match[7].length==11)? match[7] : "";
+        console.log(link) ; 
+        document.getElementById("img1").src = "https://www.youtube.com/embed/"+link;
+    })
+    </script>
 </body>
 
 </html>
