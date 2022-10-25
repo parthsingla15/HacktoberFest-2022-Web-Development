@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 55px;
+        font-weight: 800;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    ` .text1 {
+        text-decoration: underline;
+
+    }
+
+    .text2 {
+        text-decoration: underline;
+    }
+
+    #demo {
+        font-size: 45px;
+        margin: 5px 0px 0px 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    #demo2 {
+        font-size: 50px;
+        margin: 5px 0px 0px 20px;
+        justify-content: left;
+        align-items: center;
+    }
+</style>
 
 <body>
 
-    <h1>JavaScript new Date()</h1>
-    <p>Using new Date() without arguments, creates a date object with the current date and time:</p>
-
-    <p id="demo"></p>
-
+    <h1>Date & Time</h1>
+    <!-- <p>Using new Date() without arguments, creates a date object with the current date and time:</p> -->
+    <div class="flex">
+        <div class="date text1">Time:</div>
+        <p id="demo"></p>
+        <div class="date text2">Date:</div>
+        <p id="demo2"></p>
+    </div>
     <script>
         // Write code here.
-        document.getElementById("demo").innerHTML = d;
+        console.log("helllo world")
+        let newDate
+        let date
+        let time
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
+
+        setInterval(() => {
+
+            newDate = new Date
+            date = newDate.toLocaleDateString(undefined, options)
+            time = newDate.getHours() + ':' + newDate.getMinutes() + ':' + newDate.getSeconds()
+            document.getElementById('demo').innerHTML = time 
+            document.getElementById('demo2').innerHTML = date
+        }, 1000)
     </script>
 
 </body>
