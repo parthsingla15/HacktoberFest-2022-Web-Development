@@ -30,8 +30,8 @@ Website Link : https://hacktoberfest.com/
 
 <h2>📌Repository</h2>
 
-This repository contains all the projects realed to web development.
-
+This repository contains all the projects realed to web development. <br>
+**This repo is aimed at people who are new to Open-Source, earn and learn from that experience.** <br>
 **Languages** : HTML, CSS, JavaScript
 
 <h2>✔Join in</h2>
@@ -47,14 +47,14 @@ If this project helped you start with your open source journey or got you involv
 
 <h2>🛠Templates to Follow</h2>
 
-Provide your information in this following format while creating your PR PR Title : Short script of what PR is
+Provide your information in this following format while creating your PR Title : Short script of what PR is
 
 Name : Full Name <br>
 LinkedIn: LinkedIn Profile Link (Optional) <br>
 What have you included in this PR : Describe the things you had added up in this PR <br>
 
 **Note** : One should follow this PR template while appending your details of your contribution <br>
-**Maximum 2 valid PR's will be accepted per HTML file.**
+**Maximum 1 valid PR's will be accepted per HTML file.**
 
 
 <h2>👨‍💻Workflow:</h2>
